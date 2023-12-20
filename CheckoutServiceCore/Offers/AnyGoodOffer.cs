@@ -1,13 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CheckoutServiceCore.Offers
+﻿namespace CheckoutServiceCore.Offers
 {
-    public class AnyGoodOffer : Offer
+    public class AnyGoodsOffer : Offer
     {
+        public readonly int _necessaryTotalCost;
+        public readonly int _points;
+
+        public AnyGoodsOffer(int necessaryTotalCost, int points)
+        {
+            _necessaryTotalCost = necessaryTotalCost;
+            _points = points;
+        }
+
+
         public override int CalculatePoints(ICheck check)
         {
             throw new NotImplementedException();

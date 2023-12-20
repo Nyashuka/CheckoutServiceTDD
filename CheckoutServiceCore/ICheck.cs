@@ -14,6 +14,7 @@ namespace CheckoutServiceCore
         void AddOffer(Offer offer);
         void UseOffers(ICheck check);
         void AddPoints(int points);
+        int GetTotalPoints();
         int GetCostByCategory(Category category);
     }
 }

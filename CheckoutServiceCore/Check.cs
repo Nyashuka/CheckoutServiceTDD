@@ -1,5 +1,5 @@
-﻿using CheckoutServiceCore.Offers;
-using System;
+﻿using System;
+using CheckoutServiceCore.Offers;
 
 namespace CheckoutServiceCore
 {
