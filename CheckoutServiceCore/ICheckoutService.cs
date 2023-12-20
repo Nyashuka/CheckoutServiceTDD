@@ -10,6 +10,7 @@ namespace CheckoutServiceCore
     {
         void OpenCheck();
         void AddProduct(Product product);
+        void AddOffer(Offer offer);
         ICheck CloseCheck();
         ICheck GetCheck();
     }

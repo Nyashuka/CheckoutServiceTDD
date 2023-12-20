@@ -10,6 +10,11 @@ namespace CheckoutServiceCore
     {
         private ICheck _check;
 
+        public void AddOffer(Offer offer)
+        {
+            throw new NotImplementedException();
+        }
+
         public void AddProduct(Product product)
         {
             if (_check == null)
