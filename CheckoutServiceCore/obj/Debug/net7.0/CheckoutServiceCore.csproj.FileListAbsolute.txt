@@ -1,0 +1,12 @@
+E:\Univer\4course\fullstack\UnitTests\CheckoutServiceTDD\CheckoutServiceCore\bin\Debug\net7.0\CheckoutServiceCore.deps.json
+E:\Univer\4course\fullstack\UnitTests\CheckoutServiceTDD\CheckoutServiceCore\bin\Debug\net7.0\CheckoutServiceCore.dll
+E:\Univer\4course\fullstack\UnitTests\CheckoutServiceTDD\CheckoutServiceCore\bin\Debug\net7.0\CheckoutServiceCore.pdb
+E:\Univer\4course\fullstack\UnitTests\CheckoutServiceTDD\CheckoutServiceCore\obj\Debug\net7.0\CheckoutServiceCore.GeneratedMSBuildEditorConfig.editorconfig
+E:\Univer\4course\fullstack\UnitTests\CheckoutServiceTDD\CheckoutServiceCore\obj\Debug\net7.0\CheckoutServiceCore.AssemblyInfoInputs.cache
+E:\Univer\4course\fullstack\UnitTests\CheckoutServiceTDD\CheckoutServiceCore\obj\Debug\net7.0\CheckoutServiceCore.AssemblyInfo.cs
+E:\Univer\4course\fullstack\UnitTests\CheckoutServiceTDD\CheckoutServiceCore\obj\Debug\net7.0\CheckoutServiceCore.csproj.CoreCompileInputs.cache
+E:\Univer\4course\fullstack\UnitTests\CheckoutServiceTDD\CheckoutServiceCore\obj\Debug\net7.0\CheckoutServiceCore.sourcelink.json
+E:\Univer\4course\fullstack\UnitTests\CheckoutServiceTDD\CheckoutServiceCore\obj\Debug\net7.0\CheckoutServiceCore.dll
+E:\Univer\4course\fullstack\UnitTests\CheckoutServiceTDD\CheckoutServiceCore\obj\Debug\net7.0\refint\CheckoutServiceCore.dll
+E:\Univer\4course\fullstack\UnitTests\CheckoutServiceTDD\CheckoutServiceCore\obj\Debug\net7.0\CheckoutServiceCore.pdb
+E:\Univer\4course\fullstack\UnitTests\CheckoutServiceTDD\CheckoutServiceCore\obj\Debug\net7.0\ref\CheckoutServiceCore.dll
