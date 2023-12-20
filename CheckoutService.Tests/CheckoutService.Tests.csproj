@@ -22,4 +22,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\UnitTests\CheckoutServiceTDD\CheckoutServiceCore\CheckoutServiceCore.csproj" />
+  </ItemGroup>
+
 </Project>
