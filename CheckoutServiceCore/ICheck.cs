@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace CheckoutServiceCore
 {
-    public interface ICheckoutService
+    public interface ICheck
     {
-        void OpenCheck();
-        void AddProduct(Product product);
-        ICheck CloseCheck();
-        ICheck GetCheck();
+        int GetTotalCost();
     }
 }

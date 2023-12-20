@@ -1,6 +1,6 @@
 ﻿namespace CheckoutServiceCore
 {
-    public class Check
+    public class Check 
     {
 
     }
