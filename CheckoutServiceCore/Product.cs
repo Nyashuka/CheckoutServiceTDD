@@ -8,8 +8,11 @@ namespace CheckoutServiceCore
 {
     public class Product
     {
-        public readonly int _price;
-        public readonly string _name;
+        private readonly int _price;
+        private readonly string _name;
+
+        public int Price => _price;
+        public string Name => _name;
 
         public Product(int price, string name)
         {

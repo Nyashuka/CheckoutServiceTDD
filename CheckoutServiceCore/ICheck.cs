@@ -9,5 +9,6 @@ namespace CheckoutServiceCore
     public interface ICheck
     {
         int GetTotalCost();
+        void AddProduct(Product product);
     }
 }
