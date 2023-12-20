@@ -6,15 +6,18 @@ namespace CheckoutServiceCore
     public class Check : ICheck
     {
         private List<Product> _products = new List<Product>();
+        private List<Offer> offers = new List<Offer>();
+
+        private int _points;
 
         public void AddOffer(Offer offer)
         {
-            throw new NotImplementedException();
+            offers.Add(offer);
         }
 
         public void AddPoints(int points)
         {
-            throw new NotImplementedException();
+             _points = points;
         }
 
         public void AddProduct(Product product)
@@ -24,7 +27,7 @@ namespace CheckoutServiceCore
 
         public int GetCostByCategory(Category category)
         {
-            throw new NotImplementedException();
+            return _products.Where(x => x.Category == category).Sum(x => x.Price);
         }
 
         public int GetTotalCost()
@@ -39,9 +42,15 @@ namespace CheckoutServiceCore
             return totalCost;
         }
 
+        public int GetTotalPoints()
+        {
+            return GetTotalCost() + _points;
+        }
+
         public void UseOffers(ICheck check)
         {
-            throw new NotImplementedException();
+            foreach (var offer in offers)
+                offer.Apply(check);
         }
     }
 }

@@ -13,7 +13,7 @@ namespace CheckoutServiceCore
 
         public void AddOffer(Offer offer)
         {
-            throw new NotImplementedException();
+            _check.AddOffer(offer);
         }
 
         public void AddProduct(Product product)
@@ -28,6 +28,8 @@ namespace CheckoutServiceCore
 
         public ICheck CloseCheck()
         {
+            _check.UseOffers(_check);
+
             ICheck closedCheck = _check;
             _check = null;
 

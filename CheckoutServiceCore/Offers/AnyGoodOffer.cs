@@ -11,15 +11,14 @@
             _points = points;
         }
 
-
         public override int CalculatePoints(ICheck check)
         {
-            throw new NotImplementedException();
+            return _points;
         }
 
         public override bool CheckCondition(ICheck check)
         {
-            throw new NotImplementedException();
+            return _necessaryTotalCost <= check.GetTotalCost();
         }
     }
 }
